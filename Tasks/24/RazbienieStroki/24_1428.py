@@ -1,0 +1,6 @@
+s = open('24_1428.txt').readline()
+#print(s[:100])
+s = s.replace('XY', 'X Y').replace('XZ', 'X Z')
+#print(s[:100])
+#print(s.split()[:100])
+print( max(len(c) for c in s.split() ) )
